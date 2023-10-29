@@ -16,7 +16,7 @@ Resources:
      
      
   GlueServiceRole:
-    Type: AWS::IAM::Job
+    Type: AWS::IAM::Role
     Properties:
       RoleName: !Sub "${AWS::StackName} -MyRoleForGlue"
       AssumeRolePolicyDocument:
