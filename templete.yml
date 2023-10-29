@@ -10,7 +10,7 @@ Resources:
       DefaultArguments:
         "--TempDir": "s3://mycodepipelinebucket12/temp/"
       GlueVersion: "2.0"
-      WorkerType: G.1x
+      WorkerType: G.1X
       NumberOfWorkers: 2
      
      
