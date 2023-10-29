@@ -27,7 +27,8 @@ Resources:
               Service: glue.amazonaws.com
             Action:  sts:AssumeRole
       ManagedPolicyArns:
-        - arn:aws:iam::policy/AmazonS3FullAccess
-        - arn:aws:iam::policy/service-role/AWSGlueServiceRole
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        - arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+        
        
   
