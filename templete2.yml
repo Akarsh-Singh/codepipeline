@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'CloudFormation tamplete for creating an S3 bucket'
+
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'mybucketgit'
+      
+      
+Outputs:
+  BucketName:
+    Description: 'The Name of the created S3 Bucket'
+    Value: !Ref MyS3Bucket
